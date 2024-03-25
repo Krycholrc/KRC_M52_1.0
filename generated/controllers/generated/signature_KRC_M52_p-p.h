@@ -3,4 +3,4 @@
 //
 
 #define SIGNATURE_HASH 730864907
-#define TS_SIGNATURE "rusEFI default.2024.03.24.KRC_M52_p-p.730864907"
+#define TS_SIGNATURE "rusEFI default.2024.03.25.KRC_M52_p-p.730864907"
