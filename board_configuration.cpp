@@ -56,8 +56,6 @@ void setBoardConfigOverrides(void) {
 	engineConfiguration->lps25BaroSensorSda = Gpio::Unassigned;
 
 	engineConfiguration->afr.hwChannel = EFI_ADC_8;
-	engineConfiguration->afr2.hwChannel = EFI_ADC_12;
-	
 }
 
 void setPinConfigurationOverrides(void) {
