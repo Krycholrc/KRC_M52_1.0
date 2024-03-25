@@ -25,13 +25,39 @@ static void setIgnitionPins() {
 }
 
 void setBoardConfigOverrides(void) {
+	// Throttle #1
+	// PWM pin
+	engineConfiguration->etbIo[0].controlPin = Gpio::Unassigned;
+	// DIR pin
+	engineConfiguration->etbIo[0].directionPin1 = Gpio::Unassigned;
+	// Disable pin
+	engineConfiguration->etbIo[0].disablePin = Gpio::Unassigned;
+	// Unused
+	engineConfiguration->etbIo[0].directionPin2 = Gpio::Unassigned;
+
+	// Throttle #2
+	// PWM pin
+	engineConfiguration->etbIo[1].controlPin = Gpio::Unassigned;
+	// DIR pin
+	engineConfiguration->etbIo[1].directionPin1 = Gpio::Unassigned;
+	// Disable pin
+	engineConfiguration->etbIo[1].disablePin = Gpio::Unassigned;
+	// Unused
+	engineConfiguration->etbIo[1].directionPin2 = Gpio::Unassigned;
+
+	engineConfiguration->etb_use_two_wires = false;
 	
 	engineConfiguration->clt.config.bias_resistor = 2490;
 	engineConfiguration->iat.config.bias_resistor = 2490;
 
 	engineConfiguration->baroSensor.hwChannel = EFI_ADC_5;
+
+	engineConfiguration->lps25BaroSensorScl = Gpio::Unassigned;
+	engineConfiguration->lps25BaroSensorSda = Gpio::Unassigned;
+
 	engineConfiguration->afr.hwChannel = EFI_ADC_8;
 	engineConfiguration->afr2.hwChannel = EFI_ADC_12;
+	
 }
 
 void setPinConfigurationOverrides(void) {
@@ -48,7 +74,7 @@ void setPinConfigurationOverrides(void) {
 static void setupVbatt() {
 	
     engineConfiguration->analogInputDividerCoefficient = 1.52f;
-    engineConfiguration->vbattDividerCoeff = (6.34f / 1.0f);
+    engineConfiguration->vbattDividerCoeff = (7.55f / 1.0f);
     engineConfiguration->vbattAdcChannel = EFI_ADC_4;
     engineConfiguration->adcVcc = 3.24f;
 }
@@ -70,5 +96,13 @@ void setBoardDefaultConfiguration(void) {
 	setupVbatt();	
 
 	engineConfiguration->isSdCardEnabled = true;
+
+        engineConfiguration->canWriteEnabled = true;
+	engineConfiguration->canReadEnabled = true;
+	engineConfiguration->canSleepPeriodMs = 50;
+
+	engineConfiguration->canBaudRate = B1MBPS;
+	engineConfiguration->can2BaudRate = B500KBPS;
+	
 
 }
