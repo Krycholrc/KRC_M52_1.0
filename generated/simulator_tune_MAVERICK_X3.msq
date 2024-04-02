@@ -4641,8 +4641,8 @@ end</constant>
          0.8
 </constant>
     </page>
-    <versionInfo firmwareInfo="20240331" nPages="1" signature="rusEFI default.2024.04.02.KRC_M52_p-p.2912024098" version="5.0"/>
-    <bibliography author="rusEFI 20240331" writeDate="date"/>
+    <versionInfo firmwareInfo="20240401" nPages="1" signature="rusEFI default.2024.04.02.KRC_M52_p-p.2912024098" version="5.0"/>
+    <bibliography author="rusEFI 20240401" writeDate="date"/>
     <settings/>
     <userComments/>
 </msq>
