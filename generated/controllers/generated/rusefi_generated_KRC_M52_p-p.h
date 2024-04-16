@@ -1566,7 +1566,7 @@
 #define ts_show_vr_threshold_all false
 #define ts_show_vr_threshold_pins true
 #define ts_show_vvt_output true
-#define TS_SIGNATURE "rusEFI default.2024.04.15.KRC_M52_p-p.3560526983"
+#define TS_SIGNATURE "rusEFI default.2024.04.16.KRC_M52_p-p.3560526983"
 #define TS_SIMULATE_CAN '>'
 #define TS_SIMULATE_CAN_char >
 #define TS_SINGLE_WRITE_COMMAND 'W'
