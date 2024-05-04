@@ -1088,6 +1088,7 @@
 #define InjectorNonlinearMode_INJ_FordModel 2
 #define InjectorNonlinearMode_INJ_None 0
 #define InjectorNonlinearMode_INJ_PolynomialAdder 1
+#define KNOCK_TABLE_SIZE 6
 #define launchActivationMode_e_ALWAYS_ACTIVE_LAUNCH 2
 #define launchActivationMode_e_auto_enum 0="SWITCH_INPUT_LAUNCH",2="ALWAYS_ACTIVE_LAUNCH",1="CLUTCH_INPUT_LAUNCH",3="STOP_INPUT_LAUNCH"
 #define launchActivationMode_e_CLUTCH_INPUT_LAUNCH 1
@@ -1257,7 +1258,7 @@
 #define show_microRusEFI_presets false
 #define show_Proteus_presets false
 #define show_test_presets true
-#define SIGNATURE_HASH 1437885057
+#define SIGNATURE_HASH 1024546653
 #define SIMULATOR_TUNE_BIN_FILE_NAME "generated/simulator_tune_image.bin"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_PREFIX "generated/simulator_tune_image"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_SUFFIX ".bin"
@@ -1588,6 +1589,7 @@
 #define ts_show_fancy_options true
 #define ts_show_firing_order true
 #define ts_show_forced_induction true
+#define ts_show_ford_toyota_tps_pps true
 #define ts_show_fuel_pump true
 #define ts_show_fuel_relay_pin true
 #define ts_show_fuel_strategy true
@@ -1626,6 +1628,7 @@
 #define ts_show_spi2_pins true
 #define ts_show_spi3_pins true
 #define ts_show_starter_disable true
+#define ts_show_startup_map_baro_grab true
 #define ts_show_status_leds true
 #define ts_show_sync_cam true
 #define ts_show_tcu false
@@ -1641,7 +1644,7 @@
 #define ts_show_vr_threshold_all false
 #define ts_show_vr_threshold_pins true
 #define ts_show_vvt_output true
-#define TS_SIGNATURE "rusEFI default.2024.05.03.KRC_M52_p-p.1437885057"
+#define TS_SIGNATURE "rusEFI default.2024.05.04.KRC_M52_p-p.1024546653"
 #define TS_SIMULATE_CAN '>'
 #define TS_SIMULATE_CAN_char >
 #define TS_SINGLE_WRITE_COMMAND 'W'
