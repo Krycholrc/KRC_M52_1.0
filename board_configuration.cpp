@@ -43,7 +43,7 @@ void setBoardDefaultConfiguration() {
         engineConfiguration->vbattAdcChannel = EFI_ADC_4;
 
 	engineConfiguration->map.sensor.type = MT_MPXH6400;
-	engineConfiguration->baro.sensor.type = MT_MPXH6400;
+	engineConfiguration->baroSensor.type = MT_MPXH6400;
 
 	//Trigger 
 	engineConfiguration->triggerInputPins[0] = Gpio::D3;
