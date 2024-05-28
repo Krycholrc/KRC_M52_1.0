@@ -1272,7 +1272,7 @@
 #define show_microRusEFI_presets false
 #define show_Proteus_presets false
 #define show_test_presets true
-#define SIGNATURE_HASH 1799979260
+#define SIGNATURE_HASH 3902607010
 #define SIMULATOR_TUNE_BIN_FILE_NAME "generated/simulator_tune_image.bin"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_PREFIX "generated/simulator_tune_image"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_SUFFIX ".bin"
@@ -1570,7 +1570,7 @@
 #define TS_SET_LOGGER_SWITCH 'l'
 #define TS_SET_LOGGER_SWITCH_char l
 #define ts_show_air_conditioning true
-#define ts_show_analog_divider true
+#define ts_show_analog_divider false
 #define ts_show_auxserial_pins true
 #define ts_show_bank2_cam1 true
 #define ts_show_bank2_cam2 true
@@ -1596,7 +1596,7 @@
 #define ts_show_cylinder_9 true
 #define ts_show_cylinder_bank true
 #define ts_show_debug_mode false
-#define ts_show_egt true
+#define ts_show_egt false
 #define ts_show_etb true
 #define ts_show_etb_pins false
 #define ts_show_experimental true
@@ -1609,7 +1609,7 @@
 #define ts_show_fuel_pump true
 #define ts_show_fuel_relay_pin true
 #define ts_show_fuel_strategy true
-#define ts_show_full_pinout true
+#define ts_show_full_pinout false
 #define ts_show_gdi false
 #define ts_show_hardware_simulator true
 #define ts_show_hd true
@@ -1662,7 +1662,7 @@
 #define ts_show_vr_threshold_all false
 #define ts_show_vr_threshold_pins true
 #define ts_show_vvt_output true
-#define TS_SIGNATURE "rusEFI default.2024.05.28.KRC_M52_1.0.1799979260"
+#define TS_SIGNATURE "rusEFI default.2024.05.28.KRC_M52_1.0.3902607010"
 #define TS_SIMULATE_CAN '>'
 #define TS_SIMULATE_CAN_char >
 #define TS_SINGLE_WRITE_COMMAND 'W'
