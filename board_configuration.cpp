@@ -50,12 +50,12 @@ void setBoardConfigOverrides(void) {
 	engineConfiguration->clt.config.bias_resistor = 2490;
 	engineConfiguration->iat.config.bias_resistor = 2490;
 
-	engineConfiguration->baroSensor.hwChannel = EFI_ADC_5;
+	//engineConfiguration->baroSensor.hwChannel = EFI_ADC_5;
 
 	engineConfiguration->lps25BaroSensorScl = Gpio::Unassigned;
 	engineConfiguration->lps25BaroSensorSda = Gpio::Unassigned;
 
-	engineConfiguration->afr.hwChannel = Gpio::Unassigned;
+	//engineConfiguration->afr.hwChannel = Gpio::Unassigned;
 }
 
 void setPinConfigurationOverrides(void) {
