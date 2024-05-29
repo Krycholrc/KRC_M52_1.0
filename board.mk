@@ -7,6 +7,11 @@ BOARDINC += $(BOARD_DIR)/generated/controllers/generated
 # defines SHORT_BOARD_NAME
 include $(BOARD_DIR)/meta-info.env
 
+# Override DEFAULT_ENGINE_TYPE
+DDEFS += -DSTM32F407xx
+DDEFS += -DFIRMWARE_ID=\"KRC_M52\"
+DDEFS += -DHAL_TRIGGER_USE_PAL=TRUE
+
 # reduce memory usage monitoring
 DDEFS += -DRAM_UNUSED_SIZE=100
 
