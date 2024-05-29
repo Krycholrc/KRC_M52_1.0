@@ -2,7 +2,7 @@
 BOARDCPPSRC =  $(BOARD_DIR)/board_configuration.cpp
 
 # defines SHORT_BOARD_NAME
-SHORT_BOARD_NAME=KRC_M52
+include $(BOARD_DIR)/meta-info.env
 
 # Override DEFAULT_ENGINE_TYPE
 DDEFS += -DSTM32F407xx
