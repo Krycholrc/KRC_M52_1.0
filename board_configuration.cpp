@@ -38,9 +38,9 @@ void setBoardDefaultConfiguration() {
 	engineConfiguration->iat.adcChannel = EFI_ADC_0;
 	engineConfiguration->clt.adcChannel = EFI_ADC_1;
 	engineConfiguration->tps1_1AdcChannel = EFI_ADC_2;
-	engineConfiguration->baroSensor.hwChannel = EFI_ADC_5;
+	engineConfiguration->vbattAdcChannel = EFI_ADC_4;
 	engineConfiguration->map.sensor.hwChannel = EFI_ADC_3;
-        engineConfiguration->vbattAdcChannel = EFI_ADC_4;
+	engineConfiguration->baroSensor.hwChannel = EFI_ADC_5;
 
 	engineConfiguration->map.sensor.type = MT_MPXH6400;
 	engineConfiguration->baroSensor.type = MT_MPXH6400;
@@ -68,14 +68,13 @@ void setBoardDefaultConfiguration() {
 	engineConfiguration->sdCardCsPin = Gpio::D2;
 	engineConfiguration->sdCardLogFrequency = 20;
 
-	//CAN 1 bus overwrites
+	//CAN bus overwrites
 	engineConfiguration->canTxPin = Gpio::D1;
 	engineConfiguration->canRxPin = Gpio::D0;
         engineConfiguration->canWriteEnabled = true;
 	engineConfiguration->canReadEnabled = true;
 	engineConfiguration->canSleepPeriodMs = 50;
-	engineConfiguration->canBaudRate = B1MBPS;
-	engineConfiguration->can2BaudRate = B500KBPS;
+	engineConfiguration->canBaudRate = B500KBPS;
 
 	//Engine configuration
 	engineConfiguration->cylindersCount = 6;
