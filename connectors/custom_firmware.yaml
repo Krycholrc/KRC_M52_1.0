@@ -135,15 +135,15 @@ pins:
     class: switch_inputs
     ts_name: IN1 (PB12)
 
-   - id: B13
+  - id: B13
     class: switch_inputs
     ts_name: IN2 (PB13)
 
-   - id: B14
+  - id: B14
     class: switch_inputs
     ts_name: IN3 (PB14)
 
-   - id: E15
+  - id: E15
     class: switch_inputs
     ts_name: LAUNCH (PE15)
 
