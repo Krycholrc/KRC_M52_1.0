@@ -127,23 +127,23 @@ pins:
     class: [switch_inputs, event_inputs]
     ts_name: CAM (PD4)
 
-  - id: C7
+  - id: [C7, C7]
     class: [switch_inputs, event_inputs]
     ts_name: A/C_SW (PC7)
 
-  - id: B12
+  - id: [B12, B12]
     class: [switch_inputs, event_inputs]
     ts_name: IN1 (PB12)
 
-   - id: B13
+   - id: [B13, B13]
     class: [switch_inputs, event_inputs]
     ts_name: IN2 (PB13)
 
-   - id: B14
+   - id: [B14, B14]
     class: [switch_inputs, event_inputs]
     ts_name: IN3 (PB14)
 
-   - id: E15
+   - id: [E15, E15]
     class: [switch_inputs, event_inputs]
     ts_name: LAUNCH (PE15)
 
