@@ -67,10 +67,6 @@ pins:
     class: outputs
     ts_name: IDLE2 (PB7)
 
-  - id: C7
-    class: outputs
-    ts_name: A/C_SW (PC7)
-
   - id: EFI_ADC_0
     class: analog_inputs
     ts_name: IAT (PA0) 
@@ -102,5 +98,9 @@ pins:
   - id: [D4, D4]
     class: [switch_inputs, event_inputs]
     ts_name: CAM (PD4)
+
+  - id: C7
+    class: [switch_inputs, event_inputs]
+    ts_name: A/C_SW (PC7)
 
 
