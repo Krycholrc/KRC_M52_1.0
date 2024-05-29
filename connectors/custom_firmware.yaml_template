@@ -59,6 +59,18 @@ pins:
     class: outputs
     ts_name: VANOS (PD11)
 
+  - id: B9
+    class: outputs
+    ts_name: IDLE1 (PB9)
+
+  - id: B7
+    class: outputs
+    ts_name: IDLE2 (PB7)
+
+  - id: C7
+    class: outputs
+    ts_name: A/C_SW (PC7)
+
   - id: EFI_ADC_0
     class: analog_inputs
     ts_name: IAT (PA0) 
@@ -85,10 +97,10 @@ pins:
 
   - id: [D3, D3]
     class: [switch_inputs, event_inputs]
-    ts_name: Crank (PD3)
+    ts_name: CRANK (PD3)
 
   - id: [D4, D4]
     class: [switch_inputs, event_inputs]
-    ts_name: Cam (PD4)
+    ts_name: CAM (PD4)
 
 
