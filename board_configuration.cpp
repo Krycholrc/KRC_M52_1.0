@@ -15,7 +15,7 @@ void setBoardDefaultConfiguration() {
 	//Injector output
 	engineConfiguration->injectionPinMode = OM_DEFAULT;
 	engineConfiguration->injectionPins[0] = Gpio::C6;
-	engineConfiguration->injectionPins[1] = Gpio::D8;
+	engineConfiguration->injectionPins[1] = Gpio::D10;
 	engineConfiguration->injectionPins[2] = Gpio::D14;
 	engineConfiguration->injectionPins[3] = Gpio::D12;
 	engineConfiguration->injectionPins[4] = Gpio::D15;
@@ -31,7 +31,7 @@ void setBoardDefaultConfiguration() {
 	engineConfiguration->ignitionPins[5] = Gpio::E5;
 
 	//Digital out
-	engineConfiguration->fuelPumpPin = Gpio::D6;
+	engineConfiguration->fuelPumpPin = Gpio::E11;
 	engineConfiguration->tachOutputPin = Gpio::D7;
 
 	//Analog
@@ -40,6 +40,7 @@ void setBoardDefaultConfiguration() {
 	engineConfiguration->tps1_1AdcChannel = EFI_ADC_2;
 	engineConfiguration->vbattAdcChannel = EFI_ADC_4;
 	engineConfiguration->map.sensor.hwChannel = EFI_ADC_3;
+	engineConfiguration->afr.hwChannel = EFI_ADC_8;
 
 	engineConfiguration->map.sensor.type = MT_MPXH6400;
 
