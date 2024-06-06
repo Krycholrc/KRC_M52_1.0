@@ -47,9 +47,9 @@ pins:
     class: outputs
     ts_name: IGN6 (PE5)
 
-  - id: D6
+  - id: E11
     class: outputs
-    ts_name: FUEL_PUMP (PD6)
+    ts_name: FUEL_PUMP (PE11)
 
   - id: D7
     class: outputs
