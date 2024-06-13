@@ -119,6 +119,18 @@ pins:
     class: analog_inputs
     ts_name: ANALOG_A12 (PC2)
 
+  - id: [D0, D0]
+    class: [switch_inputs, event_inputs]
+    ts_name: CAN_RX (PD0)
+
+  - id: [D1, D1]
+    class: [switch_inputs, event_inputs]
+    ts_name: CAN_TX (PD1)
+
+  - id: [D2, D2]
+    class: [switch_inputs, event_inputs]
+    ts_name: SD_CS (PD2)
+
   - id: [D3, D3]
     class: [switch_inputs, event_inputs]
     ts_name: CRANK (PD3)
