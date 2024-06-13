@@ -15,7 +15,7 @@ void setBoardDefaultConfiguration() {
 	//Injector output
 	engineConfiguration->injectionPinMode = OM_DEFAULT;
 	engineConfiguration->injectionPins[0] = Gpio::C6;
-	engineConfiguration->injectionPins[1] = Gpio::D10;
+	engineConfiguration->injectionPins[1] = Gpio::D8;
 	engineConfiguration->injectionPins[2] = Gpio::D14;
 	engineConfiguration->injectionPins[3] = Gpio::D12;
 	engineConfiguration->injectionPins[4] = Gpio::D15;
@@ -31,7 +31,7 @@ void setBoardDefaultConfiguration() {
 	engineConfiguration->ignitionPins[5] = Gpio::E5;
 
 	//Digital out
-	engineConfiguration->fuelPumpPin = Gpio::E11;
+	engineConfiguration->fuelPumpPin = Gpio::D6;
 	engineConfiguration->tachOutputPin = Gpio::D7;
 
 	//Analog
@@ -40,9 +40,10 @@ void setBoardDefaultConfiguration() {
 	engineConfiguration->tps1_1AdcChannel = EFI_ADC_2;
 	engineConfiguration->vbattAdcChannel = EFI_ADC_4;
 	engineConfiguration->map.sensor.hwChannel = EFI_ADC_3;
-	engineConfiguration->afr.hwChannel = EFI_ADC_8;
+	engineConfiguration->baroSensor.hwChannel = EFI_ADC_5;
 
 	engineConfiguration->map.sensor.type = MT_MPXH6400;
+	engineConfiguration->baroSensor.type = MT_MPXH6400;
 
 	//Trigger 
 	engineConfiguration->triggerInputPins[0] = Gpio::D3;
@@ -79,7 +80,7 @@ void setBoardDefaultConfiguration() {
 	engineConfiguration->cylindersCount = 6;
 	engineConfiguration->firingOrder = FO_1_5_3_6_2_4;
 	engineConfiguration->ignitionMode = IM_INDIVIDUAL_COILS;
-	engineConfiguration->crankingInjectionMode = IM_SIMULTANEOUS;
+	engineConfiguration->crankingInjectionMode = IM_SEQUENTIAL;
 	engineConfiguration->injectionMode = IM_SEQUENTIAL;
 	
 
