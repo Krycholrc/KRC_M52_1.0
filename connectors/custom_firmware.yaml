@@ -3,9 +3,9 @@ pins:
     class: outputs
     ts_name: INJ1 (PC6)
 
-  - id: D10
+  - id: D8
     class: outputs
-    ts_name: INJ2 (PD10)
+    ts_name: INJ2 (PD8)
 
   - id: D14
     class: outputs
@@ -47,9 +47,9 @@ pins:
     class: outputs
     ts_name: IGN6 (PE5)
 
-  - id: E11
+  - id: D6
     class: outputs
-    ts_name: FUEL_PUMP (PE11)
+    ts_name: FUEL_PUMP (PD6)
 
   - id: D7
     class: outputs
@@ -103,10 +103,6 @@ pins:
     class: analog_inputs
     ts_name: BARO (PA5)
 
-  - id: EFI_ADC_8
-    class: analog_inputs
-    ts_name: O2_Sensor (PB0)
-
   - id: EFI_ADC_9
     class: analog_inputs
     ts_name: ANALOG_A9 (PB1)
@@ -150,7 +146,3 @@ pins:
   - id: E15
     class: switch_inputs
     ts_name: LAUNCH (PE15)
-
-    
-
-
