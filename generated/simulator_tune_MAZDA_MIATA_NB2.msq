@@ -4720,7 +4720,7 @@ end</constant>
 </constant>
         <constant digits="0" name="tcu_shiftTime" units="ms">0.0</constant>
     </page>
-    <versionInfo firmwareInfo="20240603" nPages="1" signature="rusEFI main.2024.06.13.KRC_M52_1.0.33428790" version="5.0"/>
+    <versionInfo firmwareInfo="20240603" nPages="1" signature="rusEFI main.2024.06.13.KRC_M52_1.0.3339591742" version="5.0"/>
     <bibliography author="rusEFI 20240603" writeDate="date"/>
     <settings/>
     <userComments/>
