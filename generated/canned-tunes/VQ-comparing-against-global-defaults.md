@@ -173,7 +173,7 @@
     engineConfiguration->finalGearRatio = 0;
     // default "Speed Density"
     engineConfiguration->fuelAlgorithm = LM_ALPHA_N;
-    // default "MAP"
+    // default "Executor"
     engineConfiguration->debugMode = DBG_22;
     // default "yes"
     engineConfiguration->cutFuelOnHardLimit = no;
@@ -284,7 +284,6 @@
 	cannedcltFuelCorr();
 	cannedcrankingFuelCoef();
 	cannedcltRevLimitRpmBins();
-	cannedcrankingCycleCoef();
 	cannedcltIdleCorr();
 	cannedcltCrankingCorr();
 	cannedcltIdleRpm();

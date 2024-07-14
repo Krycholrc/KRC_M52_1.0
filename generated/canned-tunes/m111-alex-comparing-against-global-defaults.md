@@ -223,7 +223,7 @@
     engineConfiguration->canNbcType = CAN_BUS_W202_C180;
     // default 0.0
     engineConfiguration->auxSerialSpeed = 115200;
-    // default "MAP"
+    // default "Executor"
     engineConfiguration->debugMode = DBG_STEPPER_IDLE_CONTROL;
     // default 7000.0
     engineConfiguration->rpmHardLimit = 6200;
@@ -373,7 +373,6 @@
 	cannedcltRevLimitRpmBins();
 	cannedetbBiasBins();
 	cannedetbBiasValues();
-	cannedcrankingCycleCoef();
 	cannedcltIdleCorrBins();
 	cannedcltIdleCorr();
 	cannedcltCrankingCorrBins();

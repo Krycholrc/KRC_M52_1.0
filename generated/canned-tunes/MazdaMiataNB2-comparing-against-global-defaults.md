@@ -249,7 +249,7 @@
     engineConfiguration->gearRatio[4] = 0.81;
     // default "500kbps"
     engineConfiguration->can2BaudRate = B100KBPS;
-    // default "MAP"
+    // default "Executor"
     engineConfiguration->debugMode = DBG_TPS_ACCEL;
     // default 7000.0
     engineConfiguration->rpmHardLimit = 7200;
@@ -361,7 +361,6 @@
 	nb2cannedcrankingFuelCoef();
 	nb2cannedcrankingFuelCoefE100();
 	nb2cannedcltRevLimitRpmBins();
-	nb2cannedcrankingCycleCoef();
 	nb2cannedcltIdleCorrBins();
 	nb2cannedcltIdleCorr();
 	nb2cannediacCoasting();
