@@ -139,6 +139,10 @@ pins:
     class: [switch_inputs, event_inputs]
     ts_name: CAM (PD4)
 
+  - id: [B6, B6]
+    class: [switch_inputs, event_inputs]
+    ts_name: VSS (PB6)
+
   - id: C7
     class: switch_inputs
     ts_name: A/C_SW (PC7)
