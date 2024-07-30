@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <msq xmlns="http://www.msefi.com/:msq">
     <page/>
-    <page number="0" size="22800">
+    <page number="0" size="22880">
         <constant name="engineType">"HELLEN_154_HYUNDAI_COUPE_BK2"</constant>
         <constant digits="0" name="startButtonSuppressOnStartUpMs" units="">0.0</constant>
         <constant digits="0" name="sensorSnifferRpmThreshold" units="RPM">2500.0</constant>
@@ -223,7 +223,7 @@
         <constant digits="0" name="boostControlSafeDutyCycle" units="%">0.0</constant>
         <constant name="mafAdcChannel">"NONE"</constant>
         <constant digits="0" name="acrRevolutions" units="">5.0</constant>
-        <constant digits="0" name="calibrationBirthday" units="">2.0240715E7</constant>
+        <constant digits="0" name="calibrationBirthday" units="">2.024073E7</constant>
         <constant digits="3" name="adcVcc" units="volts">3.0</constant>
         <constant digits="0" name="mapCamDetectionAnglePosition" units="Deg">0.0</constant>
         <constant name="camInputs1">"NONE"</constant>
@@ -399,7 +399,7 @@
         <constant name="max31855_cs7">"NONE"</constant>
         <constant name="max31855_cs8">"NONE"</constant>
         <constant name="flexSensorPin">"NONE"</constant>
-        <constant name="test557pin">"NONE"</constant>
+        <constant digits="0" name="unused720" units="">0.0</constant>
         <constant name="stepperDirectionPinMode">"default"</constant>
         <constant name="mc33972spiDevice">"Off"</constant>
         <constant digits="1" name="stoichRatioSecondary" units=":1">9.0</constant>
@@ -738,7 +738,7 @@
         <constant digits="2" name="throttlePedalWOTVoltage" units="voltage">4.0</constant>
         <constant digits="0" name="startUpFuelPumpDuration" units="seconds">4.0</constant>
         <constant digits="0" name="idlePidRpmDeadZone" units="RPM">50.0</constant>
-        <constant digits="1" name="targetVBatt" units="Volts">14.0</constant>
+        <constant digits="0" name="unusedTargetVBatt" units="">0.0</constant>
         <constant name="mc33810DisableRecoveryMode">"false"</constant>
         <constant name="mc33810Gpgd0Mode">"false"</constant>
         <constant name="mc33810Gpgd1Mode">"false"</constant>
@@ -4751,10 +4751,10 @@ end</constant>
 </constant>
         <constant digits="0" name="tcu_shiftTime" units="ms">0.0</constant>
         <constant cols="4" digits="1" name="alternatorVoltageTargetTable" rows="4">
-         0.0 0.0 0.0 0.0
-         0.0 0.0 0.0 0.0
-         0.0 0.0 0.0 0.0
-         0.0 0.0 0.0 0.0
+         14.0 14.0 14.0 14.0
+         14.0 14.0 14.0 14.0
+         14.0 14.0 14.0 14.0
+         14.0 14.0 14.0 14.0
 </constant>
         <constant cols="1" digits="0" name="alternatorVoltageTargetLoadBins" rows="4">
          0.0
@@ -4768,9 +4768,37 @@ end</constant>
          0.0
          0.0
 </constant>
+        <constant cols="1" digits="2" name="cltBoostCorrBins" rows="5">
+         20.0
+         40.0
+         60.0
+         80.0
+         100.0
+</constant>
+        <constant cols="1" digits="2" name="cltBoostCorr" rows="5">
+         1.0
+         1.0
+         1.0
+         1.0
+         1.0
+</constant>
+        <constant cols="1" digits="2" name="iatBoostCorrBins" rows="5">
+         20.0
+         40.0
+         60.0
+         80.0
+         100.0
+</constant>
+        <constant cols="1" digits="2" name="iatBoostCorr" rows="5">
+         1.0
+         1.0
+         1.0
+         1.0
+         1.0
+</constant>
     </page>
-    <versionInfo firmwareInfo="20240708" nPages="1" signature="rusEFI main.2024.07.15.KRC_M52_1.0.2137985754" version="5.0"/>
-    <bibliography author="rusEFI 20240708" writeDate="date"/>
+    <versionInfo firmwareInfo="20240728" nPages="1" signature="rusEFI main.2024.07.30.KRC_M52_1.0.2715600570" version="5.0"/>
+    <bibliography author="rusEFI 20240728" writeDate="date"/>
     <settings/>
     <userComments/>
 </msq>
