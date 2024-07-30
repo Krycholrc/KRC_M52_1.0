@@ -4797,7 +4797,7 @@ end</constant>
          1.0
 </constant>
     </page>
-    <versionInfo firmwareInfo="20240728" nPages="1" signature="rusEFI main.2024.07.30.KRC_M52_1.0.2715600570" version="5.0"/>
+    <versionInfo firmwareInfo="20240728" nPages="1" signature="rusEFI main.2024.07.30.KRC_M52_1.0.1664599051" version="5.0"/>
     <bibliography author="rusEFI 20240728" writeDate="date"/>
     <settings/>
     <userComments/>
