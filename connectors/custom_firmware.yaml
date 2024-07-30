@@ -163,6 +163,10 @@ pins:
     class: [switch_inputs, event_inputs]
     ts_name: VSS (PB6)
 
+  - id: [B12, B12]
+    class: [switch_inputs, event_inputs]
+    ts_name: EGT_CS (PB12)
+
   - id: E9
     class: switch_inputs
     ts_name: A/C_SW (PE9)
