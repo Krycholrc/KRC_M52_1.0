@@ -7,6 +7,7 @@
 const char * getBoardSpecificPinName(brain_pin_e brainPin) {
 	switch(brainPin) {
 		case Gpio::A8: return "BOOST (PA8)";
+		case Gpio::B12: return "EGT_CS (PB12)";
 		case Gpio::B6: return "VSS (PB6)";
 		case Gpio::B7: return "FAN (PB7)";
 		case Gpio::B8: return "IDLE2 (PB8)";
