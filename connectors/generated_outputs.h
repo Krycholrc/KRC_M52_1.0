@@ -4,44 +4,54 @@
 #pragma once
 
 Gpio GENERATED_OUTPUTS = {
-	Gpio::C6, // INJ1 (PC6)
-	Gpio::D8, // INJ2 (PD8)
-	Gpio::D14, // INJ3 (PD14)
-	Gpio::D12, // INJ4 (PD12)
-	Gpio::D15, // INJ5 (PD15)
+	Gpio::D8, // INJ1 (PD8)
+	Gpio::D9, // INJ2 (PD9)
+	Gpio::D10, // INJ3 (PD10)
+	Gpio::D11, // INJ4 (PD11)
+	Gpio::D12, // INJ5 (PD12)
 	Gpio::D13, // INJ6 (PD13)
-	Gpio::E2, // IGN1 (PE2)
-	Gpio::E3, // IGN2 (PE3)
-	Gpio::C13, // IGN3 (PC13)
-	Gpio::E6, // IGN4 (PE6)
+	Gpio::D14, // INJ7 (PD14)
+	Gpio::D15, // INJ8 (PD15)
+	Gpio::E0, // IGN1 (PE0)
+	Gpio::E1, // IGN2 (PE1)
+	Gpio::E2, // IGN3 (PE2)
+	Gpio::E3, // IGN4 (PE3)
 	Gpio::E4, // IGN5 (PE4)
 	Gpio::E5, // IGN6 (PE5)
-	Gpio::D6, // FUEL_PUMP (PD6)
+	Gpio::E6, // IGN7 (PE6)
+	Gpio::E7, // IGN8 (PE7)
+	Gpio::E11, // FUEL_PUMP (PE11)
 	Gpio::D7, // TACHO (PD7)
-	Gpio::D11, // VANOS (PD11)
 	Gpio::B9, // IDLE1 (PB9)
-	Gpio::B7, // IDLE2 (PB7)
-	Gpio::B15, // BOOST (PB15)
-	Gpio::B8, // FAN (PB8)
-	Gpio::E0, // CEL (PE0)
-// "INJ1 (PC6)",
-// "INJ2 (PD8)",
-// "INJ3 (PD14)",
-// "INJ4 (PD12)",
-// "INJ5 (PD15)",
+	Gpio::B8, // IDLE2 (PB8)
+	Gpio::A8, // BOOST (PA8)
+	Gpio::B7, // FAN (PB7)
+	Gpio::D5, // CEL (PD5)
+	Gpio::E10, // A/C_RLY (PE10)
+	Gpio::C13, // MAIN_RLY (PC13)
+// "INJ1 (PD8)",
+// "INJ2 (PD9)",
+// "INJ3 (PD10)",
+// "INJ4 (PD11)",
+// "INJ5 (PD12)",
 // "INJ6 (PD13)",
-// "IGN1 (PE2)",
-// "IGN2 (PE3)",
-// "IGN3 (PC13)",
-// "IGN4 (PE6)",
+// "INJ7 (PD14)",
+// "INJ8 (PD15)",
+// "IGN1 (PE0)",
+// "IGN2 (PE1)",
+// "IGN3 (PE2)",
+// "IGN4 (PE3)",
 // "IGN5 (PE4)",
 // "IGN6 (PE5)",
-// "FUEL_PUMP (PD6)",
+// "IGN7 (PE6)",
+// "IGN8 (PE7)",
+// "FUEL_PUMP (PE11)",
 // "TACHO (PD7)",
-// "VANOS (PD11)",
 // "IDLE1 (PB9)",
-// "IDLE2 (PB7)",
-// "BOOST (PB15)",
-// "FAN (PB8)",
-// "CEL (PE0)",
+// "IDLE2 (PB8)",
+// "BOOST (PA8)",
+// "FAN (PB7)",
+// "CEL (PD5)",
+// "A/C_RLY (PE10)",
+// "MAIN_RLY (PC13)",
 }
