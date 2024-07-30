@@ -1,4 +1,4 @@
-// this section was generated automatically by rusEFI tool config_definition-all.jar based on (unknown script) integration/rusefi_config.txt Sun Jul 14 16:15:55 UTC 2024
+// this section was generated automatically by rusEFI tool config_definition-all.jar based on (unknown script) integration/rusefi_config.txt Tue Jul 30 12:30:38 UTC 2024
 // by class com.rusefi.output.CHeaderConsumer
 // begin
 #pragma once
@@ -1773,7 +1773,7 @@ struct engine_configuration_s {
 	/**
 	 * offset 818
 	 */
-	Gpio test557pin;
+	uint16_t unused720;
 	/**
 	 * offset 820
 	 */
@@ -2775,11 +2775,9 @@ struct engine_configuration_s {
 	 */
 	int16_t idlePidRpmDeadZone;
 	/**
-	 * This is the target battery voltage the alternator PID control will attempt to maintain
-	 * units: Volts
 	 * offset 1492
 	 */
-	float targetVBatt;
+	float unusedTargetVBatt;
 	/**
 	 * See Over/Undervoltage Shutdown/Retry bit in documentation
 	offset 1496 bit 0 */
@@ -5676,8 +5674,28 @@ struct persistent_config_s {
 	 * offset 22792
 	 */
 	uint16_t alternatorVoltageTargetRpmBins[ALTERNATOR_VOLTAGE_TARGET_SIZE];
+	/**
+	 * units: C
+	 * offset 22800
+	 */
+	float cltBoostCorrBins[BOOST_CURVE_SIZE];
+	/**
+	 * units: ratio
+	 * offset 22820
+	 */
+	float cltBoostCorr[BOOST_CURVE_SIZE];
+	/**
+	 * units: C
+	 * offset 22840
+	 */
+	float iatBoostCorrBins[BOOST_CURVE_SIZE];
+	/**
+	 * units: ratio
+	 * offset 22860
+	 */
+	float iatBoostCorr[BOOST_CURVE_SIZE];
 };
-static_assert(sizeof(persistent_config_s) == 22800);
+static_assert(sizeof(persistent_config_s) == 22880);
 
 // end
-// this section was generated automatically by rusEFI tool config_definition-all.jar based on (unknown script) integration/rusefi_config.txt Sun Jul 14 16:15:55 UTC 2024
+// this section was generated automatically by rusEFI tool config_definition-all.jar based on (unknown script) integration/rusefi_config.txt Tue Jul 30 12:30:38 UTC 2024
