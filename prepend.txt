@@ -1,6 +1,6 @@
 #define show_test_presets true
 #define ts_show_full_pinout true
-#define ts_show_egt false
+#define ts_show_egt true
 #define ts_show_etb false
 #define ts_show_etb_pins false
 #define ts_show_analog_divider false
