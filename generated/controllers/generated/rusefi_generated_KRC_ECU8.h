@@ -54,8 +54,8 @@
 #define adc_channel_e_EFI_ADC_ERROR 50
 #define adc_channel_e_EFI_ADC_NONE 0
 #define adc_channel_e_EFI_ADC_TOTAL_CHANNELS 49
-#define adc_channel_e_enum 0="NONE",14="ANALOG_A10 (PC3)",15="ANALOG_A11 (PC4)",16="ANALOG_A12 (PC5)",13="ANALOG_A9 (PC2)",6="BARO (PA5)",5="BATT (PA4)",1="CLT (PA0)",2="IAT (PA1)",4="MAP (PA3)",7="TPS (PA6)"
-#define adc_channel_e_fullenum "NONE","CLT (PA0)","IAT (PA1)","INVALID","MAP (PA3)","BATT (PA4)","BARO (PA5)","TPS (PA6)","INVALID","INVALID","INVALID","INVALID","INVALID","ANALOG_A9 (PC2)","ANALOG_A10 (PC3)","ANALOG_A11 (PC4)","ANALOG_A12 (PC5)"
+#define adc_channel_e_enum 0="NONE",14="ANALOG_A10 (PC3)",15="ANALOG_A11 (PC4)",16="ANALOG_A12 (PC5)",13="ANALOG_A9 (PC2)",6="BARO (PA5)",5="BATT (PA4)",1="CLT (PA0)",2="IAT (PA1)",3="MAF (PA2)",4="MAP (PA3)",7="TPS (PA6)"
+#define adc_channel_e_fullenum "NONE","CLT (PA0)","IAT (PA1)","MAF (PA2)","MAP (PA3)","BATT (PA4)","BARO (PA5)","TPS (PA6)","INVALID","INVALID","INVALID","INVALID","INVALID","ANALOG_A9 (PC2)","ANALOG_A10 (PC3)","ANALOG_A11 (PC4)","ANALOG_A12 (PC5)"
 #define ADC_CHANNEL_NONE 0
 #define afr_sensor_s_size 20
 #define air_pressure_sensor_config_s_size 12
@@ -1293,7 +1293,7 @@
 #define show_Proteus_presets false
 #define show_test_presets true
 #define show_vvt_output_pin true
-#define SIGNATURE_HASH 1270587712
+#define SIGNATURE_HASH 608407858
 #define SIMULATOR_TUNE_BIN_FILE_NAME "generated/simulator_tune_image.bin"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_PREFIX "generated/simulator_tune_image"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_SUFFIX ".bin"
@@ -1721,7 +1721,7 @@
 #define ts_show_wastegate_sensor true
 #define ts_show_wbo_canbus_index true
 #define ts_show_wbo_canbus_set_index true
-#define TS_SIGNATURE "rusEFI main.2024.08.01.KRC_ECU8.1270587712"
+#define TS_SIGNATURE "rusEFI main.2024.08.01.KRC_ECU8.608407858"
 #define TS_SIMULATE_CAN '>'
 #define TS_SIMULATE_CAN_char >
 #define TS_SINGLE_WRITE_COMMAND 'W'
