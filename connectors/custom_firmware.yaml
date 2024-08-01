@@ -107,9 +107,9 @@ pins:
     class: analog_inputs
     ts_name: IAT (PA1)
 
-  - id: EFI_ADC_6
+  - id: EFI_ADC_2
     class: analog_inputs
-    ts_name: TPS (PA6)
+    ts_name: MAF (PA2)
 
   - id: EFI_ADC_3
     class: analog_inputs
@@ -122,6 +122,10 @@ pins:
   - id: EFI_ADC_5
     class: analog_inputs
     ts_name: BARO (PA5)
+
+  - id: EFI_ADC_6
+    class: analog_inputs
+    ts_name: TPS (PA6)
 
   - id: EFI_ADC_12
     class: analog_inputs
