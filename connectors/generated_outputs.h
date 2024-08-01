@@ -10,7 +10,7 @@ Gpio GENERATED_OUTPUTS = {
 	Gpio::D11, // INJ4 (PD11)
 	Gpio::D12, // INJ5 (PD12)
 	Gpio::D13, // INJ6 (PD13)
-	Gpio::D14, // INJ7 (PD14)
+	Gpio::D14, // INJ7/VVT (PD14)
 	Gpio::D15, // INJ8 (PD15)
 	Gpio::E0, // IGN1 (PE0)
 	Gpio::E1, // IGN2 (PE1)
@@ -35,7 +35,7 @@ Gpio GENERATED_OUTPUTS = {
 // "INJ4 (PD11)",
 // "INJ5 (PD12)",
 // "INJ6 (PD13)",
-// "INJ7 (PD14)",
+// "INJ7/VVT (PD14)",
 // "INJ8 (PD15)",
 // "IGN1 (PE0)",
 // "IGN2 (PE1)",

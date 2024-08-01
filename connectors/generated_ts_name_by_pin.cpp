@@ -6,7 +6,9 @@
 // see comments at declaration in pin_repository.h
 const char * getBoardSpecificPinName(brain_pin_e brainPin) {
 	switch(brainPin) {
+		case Gpio::A10: return "UART_RX (PA10)";
 		case Gpio::A8: return "BOOST (PA8)";
+		case Gpio::A9: return "UART_TX (PA9)";
 		case Gpio::B12: return "EGT_CS (PB12)";
 		case Gpio::B6: return "VSS (PB6)";
 		case Gpio::B7: return "FAN (PB7)";
@@ -19,7 +21,7 @@ const char * getBoardSpecificPinName(brain_pin_e brainPin) {
 		case Gpio::D11: return "INJ4 (PD11)";
 		case Gpio::D12: return "INJ5 (PD12)";
 		case Gpio::D13: return "INJ6 (PD13)";
-		case Gpio::D14: return "INJ7 (PD14)";
+		case Gpio::D14: return "INJ7/VVT (PD14)";
 		case Gpio::D15: return "INJ8 (PD15)";
 		case Gpio::D2: return "SD_CS (PD2)";
 		case Gpio::D3: return "CRANK (PD3)";
