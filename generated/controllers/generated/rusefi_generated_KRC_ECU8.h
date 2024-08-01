@@ -54,8 +54,8 @@
 #define adc_channel_e_EFI_ADC_ERROR 50
 #define adc_channel_e_EFI_ADC_NONE 0
 #define adc_channel_e_EFI_ADC_TOTAL_CHANNELS 49
-#define adc_channel_e_enum 0="NONE",14="ANALOG_A10 (PC3)",15="ANALOG_A11 (PC4)",16="ANALOG_A12 (PC5)",13="ANALOG_A9 (PC2)",6="BARO (PA5)",5="BATT (PA4)",2="CLT (PA1)",1="IAT (PA0)",4="MAP (PA3)",7="TPS (PA6)"
-#define adc_channel_e_fullenum "NONE","IAT (PA0)","CLT (PA1)","INVALID","MAP (PA3)","BATT (PA4)","BARO (PA5)","TPS (PA6)","INVALID","INVALID","INVALID","INVALID","INVALID","ANALOG_A9 (PC2)","ANALOG_A10 (PC3)","ANALOG_A11 (PC4)","ANALOG_A12 (PC5)"
+#define adc_channel_e_enum 0="NONE",14="ANALOG_A10 (PC3)",15="ANALOG_A11 (PC4)",16="ANALOG_A12 (PC5)",13="ANALOG_A9 (PC2)",6="BARO (PA5)",5="BATT (PA4)",1="CLT (PA0)",2="IAT (PA1)",4="MAP (PA3)",7="TPS (PA6)"
+#define adc_channel_e_fullenum "NONE","CLT (PA0)","IAT (PA1)","INVALID","MAP (PA3)","BATT (PA4)","BARO (PA5)","TPS (PA6)","INVALID","INVALID","INVALID","INVALID","INVALID","ANALOG_A9 (PC2)","ANALOG_A10 (PC3)","ANALOG_A11 (PC4)","ANALOG_A12 (PC5)"
 #define ADC_CHANNEL_NONE 0
 #define afr_sensor_s_size 20
 #define air_pressure_sensor_config_s_size 12
@@ -344,7 +344,7 @@
 #define ego_sensor_e_ES_PLX 4
 #define EGT_CHANNEL_COUNT 8
 #define END_OF_CALIBRATION_PADDING 174
-#define engine_configuration_s_size 4212
+#define engine_configuration_s_size 4032
 #define engine_load_mode_e_auto_enum 0="LM_SPEED_DENSITY",2="LM_ALPHA_N",3="LM_LUA",100="LM_MOCK",1="LM_REAL_MAF"
 #define engine_load_mode_e_enum "Speed Density", "MAF Air Charge", "Alpha-N", "Lua"
 #define engine_load_mode_e_LM_ALPHA_N 2
@@ -1210,7 +1210,7 @@
 #define PACK_PERCENT_BYTE_MULT 100.0
 #define PEDAL_TO_TPS_SIZE 8
 #define PERCENT_TRIM_BYTE_PACKING_DIV 0.02
-#define persistent_config_s_size 22880
+#define persistent_config_s_size 22960
 #define pid_s_size 20
 #define pin_input_mode_e_auto_enum 0="PI_DEFAULT",2="PI_PULLDOWN",1="PI_PULLUP"
 #define pin_input_mode_e_enum "DEFAULT", "PULLUP", "PULLDOWN"
@@ -1293,7 +1293,7 @@
 #define show_Proteus_presets false
 #define show_test_presets true
 #define show_vvt_output_pin true
-#define SIGNATURE_HASH 835968782
+#define SIGNATURE_HASH 1898774837
 #define SIMULATOR_TUNE_BIN_FILE_NAME "generated/simulator_tune_image.bin"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_PREFIX "generated/simulator_tune_image"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_SUFFIX ".bin"
@@ -1350,7 +1350,7 @@
 #define TOOTH_PACKET_SIZE 2
 #define TOP_DEAD_CENTER_MESSAGE "r"
 #define TORQUE_CURVE_SIZE 6
-#define TOTAL_CONFIG_SIZE 22880
+#define TOTAL_CONFIG_SIZE 22960
 #define TPS_2_BYTE_PACKING_MULT 100
 #define TPS_PPS_TOO_HIGH_THRESHOLD 110
 #define TPS_PPS_TOO_LOW_THRESHOLD -10
@@ -1721,7 +1721,7 @@
 #define ts_show_wastegate_sensor true
 #define ts_show_wbo_canbus_index true
 #define ts_show_wbo_canbus_set_index true
-#define TS_SIGNATURE "rusEFI main.2024.07.30.KRC_ECU8.835968782"
+#define TS_SIGNATURE "rusEFI main.2024.08.01.KRC_ECU8.1898774837"
 #define TS_SIMULATE_CAN '>'
 #define TS_SIMULATE_CAN_char >
 #define TS_SINGLE_WRITE_COMMAND 'W'
