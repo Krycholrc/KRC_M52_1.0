@@ -147,6 +147,14 @@ pins:
     class: [switch_inputs, event_inputs]
     ts_name: CAN_TX (PD1)
 
+  - id: [A9, A9]
+    class: [switch_inputs, event_inputs]
+    ts_name: UART_TX (PA9)
+
+  - id: [A10, A10]
+    class: [switch_inputs, event_inputs]
+    ts_name: UART_RX (PA10)
+    
   - id: [D2, D2]
     class: [switch_inputs, event_inputs]
     ts_name: SD_CS (PD2)
