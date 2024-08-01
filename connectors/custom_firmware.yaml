@@ -101,11 +101,11 @@ pins:
 
   - id: EFI_ADC_0
     class: analog_inputs
-    ts_name: IAT (PA0) 
+    ts_name: CLT (PA0) 
 
   - id: EFI_ADC_1
     class: analog_inputs
-    ts_name: CLT (PA1)
+    ts_name: IAT (PA1)
 
   - id: EFI_ADC_6
     class: analog_inputs
