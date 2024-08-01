@@ -39,8 +39,8 @@ void setBoardDefaultConfiguration() {
 	engineConfiguration->tachOutputPin = Gpio::D7;
 
 	//Analog
-	engineConfiguration->iat.adcChannel = EFI_ADC_0;
-	engineConfiguration->clt.adcChannel = EFI_ADC_1;
+	engineConfiguration->clt.adcChannel = EFI_ADC_0;
+	engineConfiguration->iat.adcChannel = EFI_ADC_1;
 	engineConfiguration->tps1_1AdcChannel = EFI_ADC_6;
 	engineConfiguration->vbattAdcChannel = EFI_ADC_4;
 	engineConfiguration->map.sensor.hwChannel = EFI_ADC_3;
