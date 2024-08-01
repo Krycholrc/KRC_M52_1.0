@@ -25,7 +25,7 @@ pins:
 
   - id: D14
     class: outputs
-    ts_name: INJ7 (PD14)
+    ts_name: INJ7/VVT (PD14)
 
   - id: D15
     class: outputs
