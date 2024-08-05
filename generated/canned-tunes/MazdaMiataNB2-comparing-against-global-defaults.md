@@ -183,14 +183,12 @@
     engineConfiguration->tachPulsePerRev = 2;
     // default "false"
     engineConfiguration->enableSoftwareKnock = true;
-    // default 0.0
-    engineConfiguration->knockBandCustom = 13.80627;
+    // default 87.5
+    engineConfiguration->cylinderBore = 83;
     // default 20.0
     engineConfiguration->knockRetardAggression = 0;
     // default 3.0
     engineConfiguration->knockRetardReapplyRate = 0;
-    // default 87.5
-    engineConfiguration->cylinderBore = 83;
     // default 35.0
     engineConfiguration->stft.maxOverrunLoad = 30;
     // default "false"
@@ -248,7 +246,7 @@
     // default "500kbps"
     engineConfiguration->can2BaudRate = B100KBPS;
     // default "Executor"
-    engineConfiguration->debugMode = DBG_TPS_ACCEL;
+    engineConfiguration->debugMode = DBG_1;
     // default 7000.0
     engineConfiguration->rpmHardLimit = 7200;
     // default 300.0
