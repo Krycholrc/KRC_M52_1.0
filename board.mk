@@ -16,5 +16,5 @@ DDEFS += -DEFI_SOFTWARE_KNOCK=TRUE
 # reduce memory usage monitoring
 DDEFS += -DRAM_UNUSED_SIZE=100
 
-# Not use critical LED
-DDEFS += -DLED_CRITICAL_ERROR_BRAIN_PIN=Gpio::Unassigned
+# Critical LED (Err)
+DDEFS += -DLED_CRITICAL_ERROR_BRAIN_PIN=Gpio::E8
